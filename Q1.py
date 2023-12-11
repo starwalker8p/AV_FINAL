@@ -1,7 +1,9 @@
+#coleto a renda do usuario
 renda = 0
 while renda <= 0:
     renda = float(input("Digite sua renda mensal: "))
 impostos,rendas = [8, 18, 28],[2000,3000,4500]
+#aplico o imposto sobre a renda
 if renda <= rendas[0]:
     print('Isento')
 elif rendas[1] >= renda > rendas[0]:
